@@ -25,7 +25,7 @@ SECRET_KEY = '@o9=e1zilvyjxat!^o$avsz9j=+robuzs5vj7g))8+gkj_ecle'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['narenas.pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog', 
+    'blog',
 ]
 
 MIDDLEWARE = [
